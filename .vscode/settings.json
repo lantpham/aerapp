@@ -1,0 +1,10 @@
+{
+    "editor.fontSize": 14,
+    "scm.inputFontSize": 14,
+    "debug.console.fontSize": 14,
+    "files.exclude": {
+        "**/bin": true,
+        "**/obj": true
+    },
+    "explorer.compactFolders": false
+}
