@@ -1,0 +1,207 @@
+[
+    {
+      "UserName": "Georgia",
+      "Age": 29,
+      "Name": "Samantha Merritt",
+      "Gender": "female",
+      "Company": "MOMENTIA",
+      "Email": "samanthamerritt@momentia.com",
+      "Phone": "+1 (875) 430-2401",
+      "Address": "915 Tilden Avenue, Breinigsville, Puerto Rico, 9038",
+      "DateOfBirth": "1994-03-13",
+      "Photos": [
+        {
+          "Url": "https://randomuser.me/api/portraits/women/8.jpg",
+          "IsMain": true
+        }
+      ]
+    },
+    {
+      "UserName": "Gay",
+      "Age": 21,
+      "Name": "Tammy Mcknight",
+      "Gender": "female",
+      "Company": "ANIXANG",
+      "Email": "tammymcknight@anixang.com",
+      "Phone": "+1 (867) 466-3233",
+      "Address": "649 Portland Avenue, Darlington, Colorado, 9841",
+      "DateOfBirth": "1965-06-17",
+      "Photos": [
+        {
+          "Url": "https://randomuser.me/api/portraits/women/12.jpg",
+          "IsMain": true
+        }
+      ]
+    },
+    {
+      "UserName": "Dena",
+      "Age": 38,
+      "Name": "Landry Armstrong",
+      "Gender": "male",
+      "Company": "SNACKTION",
+      "Email": "landryarmstrong@snacktion.com",
+      "Phone": "+1 (875) 500-3083",
+      "Address": "699 Amber Street, Riceville, Kansas, 9350",
+      "DateOfBirth": "1975-01-04",
+      "Photos": [
+        {
+          "Url": "https://randomuser.me/api/portraits/women/69.jpg",
+          "IsMain": true
+        }
+      ]
+    },
+    {
+      "UserName": "Traci",
+      "Age": 36,
+      "Name": "Rosalind Dennis",
+      "Gender": "female",
+      "Company": "WATERBABY",
+      "Email": "rosalinddennis@waterbaby.com",
+      "Phone": "+1 (862) 596-2079",
+      "Address": "235 Broadway , Fairhaven, New Jersey, 9497",
+      "DateOfBirth": "1959-04-25",
+      "Photos": [
+        {
+          "Url": "https://randomuser.me/api/portraits/women/81.jpg",
+          "IsMain": true
+        }
+      ]
+    },
+    {
+      "UserName": "Mary",
+      "Age": 29,
+      "Name": "Lana Marks",
+      "Gender": "female",
+      "Company": "TERASCAPE",
+      "Email": "lanamarks@terascape.com",
+      "Phone": "+1 (926) 436-3536",
+      "Address": "126 Clarkson Avenue, Wollochet, Alaska, 4589",
+      "DateOfBirth": "1960-11-28",
+      "Photos": [
+        {
+          "Url": "https://randomuser.me/api/portraits/women/44.jpg",
+          "IsMain": true
+        }
+      ]
+    },
+    {
+      "UserName": "Rochelle",
+      "Age": 26,
+      "Name": "Strong Finch",
+      "Gender": "male",
+      "Company": "REMOTION",
+      "Email": "strongfinch@remotion.com",
+      "Phone": "+1 (887) 455-2778",
+      "Address": "850 Roder Avenue, Coinjock, New York, 272",
+      "DateOfBirth": "1996-01-20",
+      "Photos": [
+        {
+          "Url": "https://randomuser.me/api/portraits/women/43.jpg",
+          "IsMain": true
+        }
+      ]
+    },
+    {
+      "UserName": "Tracie",
+      "Age": 28,
+      "Name": "Ines Campbell",
+      "Gender": "female",
+      "Company": "ZAGGLE",
+      "Email": "inescampbell@zaggle.com",
+      "Phone": "+1 (835) 591-3936",
+      "Address": "885 Montgomery Street, Clay, Louisiana, 3818",
+      "DateOfBirth": "1972-11-20",
+      "Photos": [
+        {
+          "Url": "https://randomuser.me/api/portraits/women/3.jpg",
+          "IsMain": true
+        }
+      ]
+    },
+        {
+          "UserName": "Tanner",
+          "Age": 35,
+          "Name": "Branch Mclean",
+          "Gender": "male",
+          "Company": "XERONK",
+          "Email": "branchmclean@xeronk.com",
+          "Phone": "+1 (899) 466-3514",
+          "Address": "317 Gerritsen Avenue, Lodoga, Virgin Islands, 1588",
+          "DateOfBirth": "1962-09-26",
+          "Photos": [
+            {
+              "Url": "https://randomuser.me/api/portraits/men/57.jpg",
+              "IsMain": true
+            }
+          ]
+        },
+        {
+          "UserName": "Wagner",
+          "Age": 33,
+          "Name": "Suzanne Burton",
+          "Gender": "female",
+          "Company": "JIMBIES",
+          "Email": "suzanneburton@jimbies.com",
+          "Phone": "+1 (956) 599-3135",
+          "Address": "579 Tilden Avenue, Brewster, Federated States Of Micronesia, 1234",
+          "DateOfBirth": "1954-12-05",
+          "Photos": [
+            {
+              "Url": "https://randomuser.me/api/portraits/men/66.jpg",
+              "IsMain": true
+            }
+          ]
+        },
+        {
+          "UserName": "Cervantes",
+          "Age": 22,
+          "Name": "Virginia Cole",
+          "Gender": "female",
+          "Company": "NIKUDA",
+          "Email": "virginiacole@nikuda.com",
+          "Phone": "+1 (895) 483-2305",
+          "Address": "576 Nelson Street, Fairacres, Northern Mariana Islands, 6396",
+          "DateOfBirth": "1957-06-10",
+          "Photos": [
+            {
+              "Url": "https://randomuser.me/api/portraits/men/59.jpg",
+              "IsMain": true
+            }
+          ]
+        },
+        {
+          "UserName": "Huber",
+          "Age": 34,
+          "Name": "Gallegos Benton",
+          "Gender": "male",
+          "Company": "RAMJOB",
+          "Email": "gallegosbenton@ramjob.com",
+          "Phone": "+1 (977) 404-2878",
+          "Address": "868 Lois Avenue, Veguita, Pennsylvania, 5327",
+          "DateOfBirth": "1954-08-05",
+          "Photos": [
+            {
+              "Url": "https://randomuser.me/api/portraits/men/2.jpg",
+              "IsMain": true
+            }
+          ]
+        },
+        {
+          "UserName": "Conner",
+          "Age": 35,
+          "Name": "Boyle Huber",
+          "Gender": "male",
+          "Company": "QNEKT",
+          "Email": "boylehuber@qnekt.com",
+          "Phone": "+1 (916) 555-3673",
+          "Address": "196 Albee Square, Chestnut, Puerto Rico, 7857",
+          "DateOfBirth": "1967-10-14",
+          "Photos": [
+            {
+              "Url": "https://randomuser.me/api/portraits/men/42.jpg",
+              "IsMain": true
+            }
+          ]
+        }
+      ]
+  
