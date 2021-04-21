@@ -32,6 +32,9 @@ namespace API.Controllers
                 PasswordSalt = hmac.Key
             };
             _context.Users.Add(user);
+
+            //add user Photo here
+            
             await _context.SaveChangesAsync();
             return new UserDto{
                 UserName = user.UserName,
