@@ -12,6 +12,8 @@ import { MemberListComponent } from './members/member-list/member-list.component
 import { MemberCardComponent } from './members/member-card/member-card.component';
 import { HomeComponent } from './home/home.component';
 import { RegisterComponent } from './register/register.component';
+import { PropertiesListComponent } from './properties/properties-list/properties-list.component';
+import { PropertiesDetailsComponent } from './properties/properties-details/properties-details.component';
 
 
 @NgModule({
@@ -21,7 +23,9 @@ import { RegisterComponent } from './register/register.component';
     MemberListComponent,
     MemberCardComponent,
     HomeComponent,
-    RegisterComponent
+    RegisterComponent,
+    PropertiesListComponent,
+    PropertiesDetailsComponent
   ],
   imports: [
     BrowserModule,
