@@ -1,5 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { Property } from '../_models/property';
+import { PropertyService } from '../_services/property.service';
 
 @Component({
   selector: 'app-property',
@@ -7,13 +8,22 @@ import { Property } from '../_models/property';
   styleUrls: ['./property.component.css']
 })
 export class PropertyComponent implements OnInit {
-  propertiesForCurrentUser: Property[]=[
-    {'id':1, 'address':"1234 somewhere", 'acquisitionValue':125000, 'city':"Austin",'state':"TX" ,'zip':"78723", 'acquisitionDate': null},
-    {'id':2, 'address':"3452 somewhere", 'acquisitionValue':125000, 'city':"Austin", 'state':"TX" ,'zip':"78723", 'acquisitionDate': null}
-  ];
-  constructor() { }
+  propertiesForCurrentUser: Property[] =[];
+  constructor(private propertyService: PropertyService) { }
 
   ngOnInit(): void {
+    this.getProperties();
   }
-
+  getProperties(){
+    //this.propertiesForUser = this.propertyService.getProperties();
+    this.propertyService.getProperties()
+    .subscribe(
+      (data) => {
+        for(let p of data){
+          this.propertiesForCurrentUser.push(p);
+        }
+      }
+    )
+ 
+  }
 }

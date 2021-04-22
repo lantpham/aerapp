@@ -21,4 +21,15 @@ export class PropertyService {
       }
     ));
   }
+  getProperties(){
+    return this.http.get(this.baseUrl + "properties").pipe(
+      map((resp: Property[]) =>{
+        const prop = resp;
+        if(prop){
+          console.log(prop);
+        }
+        return prop;
+      }
+       ));
+  }
 }
