@@ -1,0 +1,28 @@
+
+<form (ngSubmit)="createNewProperty()" class="form-inline mt-2 mt-md-0">
+    <label>Address</label>
+    <input
+    name="address"
+    [(ngModel)]="model.address"
+    type="text"
+    placeholder="address">
+    <label>City</label>
+    <input
+    name="city"
+    [(ngModel)]="model.city"
+    type="text"
+    placeholder="city">
+    <label>State</label>
+    <input
+    name="state"
+    [(ngModel)]="model.state"
+    type="text"
+    placeholder="State">
+    <label>Zip Codes</label>
+    <input
+    name="zip"
+    [(ngModel)]="model.zip"
+    type="text"
+    placeholder="Zip Code">
+    <button class="btn btn-success my-2 my-sm-0" type="submit">Create property</button>
+</form>

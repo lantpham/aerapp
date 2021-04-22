@@ -9,13 +9,17 @@ import { RegisterComponent } from './register/register.component';
 import { HomeComponent } from './home/home.component';
 import { PropertyComponent } from './property/property.component';
 import { FormsModule} from '@angular/forms';
+import { PropertyListComponent } from './property/property-list/property-list.component';
+import { PropertyDetailsComponent } from './property/property-details/property-details.component';
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
     RegisterComponent,
     HomeComponent,
-    PropertyComponent
+    PropertyComponent,
+    PropertyListComponent,
+    PropertyDetailsComponent
   ],
   imports: [
     BrowserModule,
