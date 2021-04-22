@@ -13,6 +13,7 @@ namespace API.Entensions
         public static IServiceCollection AddApplicationServices (this IServiceCollection services, IConfiguration config){
             services.AddScoped<ITokenService, TokenService>();
             services.AddScoped<IUserRepository, UserRepository>();
+            services.AddScoped<IPropertyRepository, PropertyRepository>();
             services.AddAutoMapper(typeof(AutoMapperProfiles).Assembly);
             services.AddDbContext<DataContext>(options =>
             {
