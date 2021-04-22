@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using API.Data;
+using API.Entities;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -21,9 +23,11 @@ namespace API
             var services = scope.ServiceProvider;
             try{
                 var context = services.GetRequiredService<DataContext>();
+                //add this to with Seed param
+                var userManager = services.GetRequiredService <UserManager<AppUser>>(); //drop database with dotnet ef database drop
                 await context.Database.MigrateAsync();
-                await Seed.SeedUsers(context);
-                await context.SaveChangesAsync();
+                await Seed.SeedUsers(userManager);
+                //await context.SaveChangesAsync();
             }
             catch(Exception ex){
                 var logger = services.GetRequiredService<ILogger<Program>>();

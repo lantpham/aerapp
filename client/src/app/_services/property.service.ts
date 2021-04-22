@@ -11,7 +11,7 @@ export class PropertyService {
   baseUrl = environment.apiUrl;
   constructor(private http:HttpClient) { }
   createProperty(model:Property){
-    return this.http.post(this.baseUrl + 'property', model).pipe(
+    return this.http.post(this.baseUrl + 'properties/create', model).pipe(
       map((resp: Property) => {
         const prop = resp;
         if(prop){
